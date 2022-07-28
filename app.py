@@ -7,7 +7,7 @@ st.set_page_config(page_title="Laptop Price(BD) Predictor", page_icon="💻")
 
 st.text('Made by Arpon_Mandal')
 
-file1 = open('pipe.pkl', 'rb')
+file1 = open('pipenew.pkl', 'rb')
 rf = pickle.load(file1)
 file1.close()
 
